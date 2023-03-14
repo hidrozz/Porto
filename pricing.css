@@ -1,0 +1,108 @@
+body{
+    font-family: sans-serif !important;
+    background-color:#ededed !important;
+    font-style: bold !important;
+}
+.konten {
+    text-align: center !important;
+    color: #181818 !important;
+
+}
+.toogle{
+    margin: 0 10px !important;
+} 
+
+input .toogle{
+    border-radius: 20px !important;
+}
+.header{
+    text-align: center !important;
+}
+.inline-block{
+    display: inline-block;
+}
+.center {
+    height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+input[type="checkbox"] {
+    position: relative !important;
+    width: 40px !important;
+    height: 20px !important;
+    border-radius: 2px !important;
+    box-shadow: inset 10px 10px 10px 10px #9196EA !important;
+    transition: .5s !important;
+  
+
+}
+input[type="checkbox"]:before {
+    content: '' !important;
+    position: absolute!important;
+    width: 20px !important;
+    height: 20px !important;
+    top: 0 !important;
+    left: 0 !important;
+    background-color: #fff !important;
+    border-radius: 0px !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+    transform: scale(1.1) !important;
+    transition: .5s !important;
+}
+
+input:checked[type="checkbox"]:before {
+    left: 20px !important;
+}
+/*
+.price-card-side{
+colo
+} */
+.price-card-side{
+background: #ffffff !important;
+color: #181818 !important;
+font-weight: 600 !important;
+border: none !important;
+}
+
+.price-card-side h5,p
+{
+     opacity: 86% !important;
+}
+
+.price-card-side tr{
+    opacity: 70% !important;
+}
+
+.price-card-side .btn-card-side{
+/* max-width: 20px !important; */
+font-weight: 600 !important;
+background: #9196EA!important;
+color: #ffffff!important;
+border: none !important;
+}
+
+.pricing-area{
+padding: 80px 0 !important;
+}
+
+.price-card-center{
+background: #9196EA !important;
+color: #ffffff !important;
+font-weight: 700 !important;
+border: none !important;
+}
+
+.price-card-center .btn-card-center{
+/* max-width: 20px !important; */
+font-weight: 600 !important;
+background: #ffffff !important;
+color: #9196EA !important;
+border: none !important;
+}
+
+
+.price-tag{
+font-size: 50px;
+}
